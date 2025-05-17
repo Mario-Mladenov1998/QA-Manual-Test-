@@ -15,7 +15,7 @@
 
 ###  Test Steps:
 
-| Step| Action| Data| Expected Result |
+| Step | Action | Data | Expected Result |
 |------|--------|------|-----------------|
 | 1.1 | Navigate to facebook.com | - | facebook.com homepage is loaded |
 | 1.2 | Click on the field "Email or Phone number" | - | The text cursor appears in the field |
