@@ -39,6 +39,8 @@ Test Case: 2 Registration wtih already used email
 - **Preconditions:** User is on the registration page
 
   
+
+  
  | Step | Action                      | Data            | Expected Result                              |
 |-------|----------------------------|-----------------|---------------------------------------------|
 | 1.1   | Navigate to instagram.com    | -               | instagram.com is loaded                      |
@@ -46,3 +48,48 @@ Test Case: 2 Registration wtih already used email
 | 1.3   | Type the user Email          | testcase@mail.com | The email appears in the field               |
 | 1.4   | Type the user Password       | testcase123      | The password appears but is not visible      |
 | 1.5   | Click the register button    | -                | Message "Email is already in use" appears    |
+
+
+# ✅ Test Case 3: Password Reset with Valid Email
+
+- **Suite:** Password Recovery  
+- **Severity:** Major  
+- **Priority:** High  
+- **Type:** Functional  
+- **Layer:** E2E  
+- **Is Flaky:** No  
+- **Behavior:** Positive  
+- **Automation status:** Manual  
+- **Description:**  
+Tests the ability of the user to reset their password using a valid email.
+
+---
+
+### 🟦 Preconditions:
+- User is on the home page.
+
+### 🟩 Postconditions:
+- User successfully resets their password.
+
+# ✅ Test Case: Password Reset with Valid Email
+
+- **Suite:** Password Recovery  
+- **Severity:** Major  
+- **Priority:** High  
+- **Type:** Functional  
+- **Layer:** E2E  
+- **Is Flaky:** No  
+- **Behavior:** Positive  
+- **Automation status:** Manual  
+- **Description:**  
+Tests the ability of the user to reset their password using a valid email.
+
+---
+
+### 🟦 Preconditions:
+- User is on the home page.
+
+### 🟩 Postconditions:
+- User successfully resets their password.
+
+---
