@@ -40,6 +40,7 @@ Test Case: 2 Registration wtih already used email
 
 - 
 - | Step| Action| Data| Expected Result |
+- |------|--------|------|-----------------
   
 | 1.1 | Navigate to instagram.com | - | instagram.com | | instagram.com is loade | 
 
