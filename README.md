@@ -39,7 +39,7 @@ Test Case: 2 Registration wtih already used email
 - **Preconditions:** User is on the registration page
 
 - 
-- | Step| Action| Data| Expected Result |
+- | Step | Action | Data | Expected Result |
 - |------|--------|------|-----------------
   
 | 1.1 | Navigate to instagram.com | - | instagram.com |  | instagram.com is loade | 
