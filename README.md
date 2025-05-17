@@ -47,6 +47,4 @@ TEST CASE STEP
 2.The user home page is loaded 
 
 
-   1.4
-   
-1.3
+
