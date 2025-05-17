@@ -39,15 +39,10 @@ Test Case: 2 Registration wtih already used email
 - **Preconditions:** User is on the registration page
 
   
-  | Step | Action | Data | Expected Result |
-  |------|--------|------|-----------------|
-  
-| 1.1 |  Navigate to instagram.com | - | instagram.com is loaded | 
-
-| 1.2 | Click on the field E-mail or Password | - | The text appears is on the field |
-
-| 1.3 |  Type the user E-mail | testcase@mail.com |   The text appears is on the field |
-
-| 1.4 |  Type the usear Password | testcase123 |   The Password is on the field but not is visibe |
-
-| 1.5 |  Click the register button | - | Email is already in use | 
+ | Step | Action                      | Data            | Expected Result                              |
+|-------|----------------------------|-----------------|---------------------------------------------|
+| 1.1   | Navigate to instagram.com    | -               | instagram.com is loaded                      |
+| 1.2   | Click on the field Email or Password | -       | The text cursor appears in the field        |
+| 1.3   | Type the user Email          | testcase@mail.com | The email appears in the field               |
+| 1.4   | Type the user Password       | testcase123      | The password appears but is not visible      |
+| 1.5   | Click the register button    | -                | Message "Email is already in use" appears    |
