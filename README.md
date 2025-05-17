@@ -52,7 +52,7 @@ Test Case: 2 Registration wtih already used email
 
 
 
-# ✅ Test Case: Password Reset with Valid Email
+# ✅ Test Case 3 : Password Reset with Valid Email
 
 - **Suite:** Password Recovery  
 - **Severity:** Major  
