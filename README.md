@@ -52,7 +52,7 @@ Test Case: 2 Registration wtih already used email
 
 
 
-# ✅ Test Case 3: Password Reset with Valid Email
+# ✅ Test Case: Password Reset with Valid Email
 
 - **Suite:** Password Recovery  
 - **Severity:** Major  
@@ -74,3 +74,16 @@ Tests the ability of the user to reset their password using a valid email.
 - User successfully resets their password.
 
 ---
+
+### 📋 Test Steps:
+
+| Step | Action                                   | Data                    | Expected Result                                         |
+|------|------------------------------------------|-------------------------|---------------------------------------------------------|
+| 1    | Click on **Forgot Password**             | -                       | Redirected to the password reset page                  |
+| 2    | Ensure the email field is visible        | -                       | Email input field is displayed                         |
+| 3    | Enter a valid email                      | martinlord@mail.com     | Email appears in the field                             |
+| 4    | Click on the **Reset Password** button   | -                       | Message appears: "Email sent with reset instruction"   |
+| 5    | Check the email inbox                    | -                       | User receives reset email with instructions            |
+
+---
+
