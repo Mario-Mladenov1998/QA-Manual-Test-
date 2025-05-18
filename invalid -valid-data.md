@@ -30,7 +30,7 @@ User is on the login page.
 The user stays on the login page. Login is not successful.
 
 
- 🔁 Test Case 2 : Forgot Password with Valid Email
+ # 🔁 Test Case 2 : Forgot Password with Valid Email
 
 - **Suite:** Password Recovery  
 - **Severity:** Medium  
