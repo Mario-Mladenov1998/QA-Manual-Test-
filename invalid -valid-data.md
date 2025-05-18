@@ -93,7 +93,7 @@ The user remains on the registration page, form is not submitted.
 
 
 
-# ✅ Test Case: Valid Login
+# ✅ Test Case 4 : Valid Login
 
 | **Field**           | **Description**                                                                 |
 |---------------------|----------------------------------------------------------------------------------|
