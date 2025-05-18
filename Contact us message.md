@@ -64,30 +64,14 @@ The user is logged in and on the product page.
 
 ---
 
-### 🧪 Steps:
+### 🧪 Test Steps
 
-**1.**  
-**Action:** Choose a product from the list  
-**Data:** Amazon.com  
-**Expected Result:** Product page is loaded
-
----
-
-**2.**  
-**Action:** Click the "Add to cart" button  
-**Expected Result:** Message "Product added" is shown
-
----
-
-**3.**  
-**Action:** Click the cart icon  
-**Expected Result:** Product is visible in the cart
-
----
-
-**4.**  
-**Action:** Check the quantity  
-**Expected Result:** Default quantity is "1"
+| Step | Action                  | Data         | Expected Result                      |
+|------|-------------------------|--------------|--------------------------------------|
+| 1    | Choose product          | Amazon.com   | Product page is loaded               |
+| 2    | Click "Add to cart"     | -            | Message "Product added" is shown     |
+| 3    | Click cart icon         | -            | Product is visible in the cart       |
+| 4    | Check product quantity  | -            | Quantity is "1" by default           |
 
 ---
 
