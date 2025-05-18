@@ -93,7 +93,22 @@ The user remains on the registration page, form is not submitted.
 
 
 
-# ✅ Test Case 4 : Valid Login
+# ✅ Test Case: Valid Login
+
+| **Field**           | **Description**                                                                 |
+|---------------------|----------------------------------------------------------------------------------|
+| **Test Case ID**    | TC-LOGIN-001                                                                     |
+| **Title**           | Valid login with registered user                                                 |
+| **Priority**        | High                                                                             |
+| **Severity**        | Critical                                                                         |
+| **Type**            | Positive                                                                         |
+| **Preconditions**   | User is already registered with a valid email and password                       |
+| **Tested By**       | (your name or leave blank)                                                       |
+| **Date Created**    | (e.g. 2025-05-18)                                                                 |
+
+---
+
+## 🔹 Test Steps
 
 | Step | Action               | Test Data                | Expected Result                                   |
 |------|----------------------|--------------------------|---------------------------------------------------|
@@ -101,4 +116,5 @@ The user remains on the registration page, form is not submitted.
 | 2    | Enter email          | example@mail.com         | Email is visible in the email input field         |
 | 3    | Enter password       | strongpassword123!@#     | Password is entered (masked as bullets)           |
 | 4    | Click "Login" button | –                        | User is logged in and redirected to homepage      |
+
 
