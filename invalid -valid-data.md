@@ -90,3 +90,15 @@ The user remains on the registration page, form is not submitted.
 | 2    | Enter invalid email            | donaldtrump2025@mail.com    | Error message: "Invalid email format" is shown        |
 | 3    | Enter password                 | trumptower2025!@            | Password is entered into the field                    |
 | 4    | Click the register button      | -                           | Form is not submitted, error message stays visible    |
+
+
+
+# ✅ Test Case 4 : Valid Login
+
+| Step | Action               | Test Data                | Expected Result                                   |
+|------|----------------------|--------------------------|---------------------------------------------------|
+| 1    | Open login page      | –                        | Login page is loaded successfully                 |
+| 2    | Enter email          | example@mail.com         | Email is visible in the email input field         |
+| 3    | Enter password       | strongpassword123!@#     | Password is entered (masked as bullets)           |
+| 4    | Click "Login" button | –                        | User is logged in and redirected to homepage      |
+
