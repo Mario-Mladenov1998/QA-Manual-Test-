@@ -64,7 +64,7 @@ The user is logged in and on the product page.
 
 ---
 
-### 🧪 Test Steps
+###  Test Steps
 
 | Step | Action                  | Data         | Expected Result                      |
 |------|-------------------------|--------------|--------------------------------------|
