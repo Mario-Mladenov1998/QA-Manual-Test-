@@ -59,3 +59,34 @@ User successfully initiates password reset.
 | 2    | Click on the password field  | database123!        | Text is entered but not visible                |
 | 3    | Type the user email          | Email123@mail.com   | The text appears in the email field            |
 | 4    | Click "Send reset link"      | -                   | Message appears: "Password reset link sent"    |
+
+
+# 🛑 Test Case 3 : Registration with Invalid Email
+
+- **Suite:** Registration  
+- **Severity:** High  
+- **Priority:** Medium  
+- **Type:** Functional  
+- **Layer:** E2E  
+- **Is Flaky:** No  
+- **Behavior:** Negative  
+- **Automation Status:** Manual  
+
+---
+
+### ❗ Preconditions:
+The user is on the **registration** page.
+
+### ✅ Postconditions:
+The user remains on the registration page, form is not submitted.
+
+---
+
+### 🧪 Test Steps
+
+| Step | Action                         | Data                        | Expected Result                                       |
+|------|--------------------------------|-----------------------------|--------------------------------------------------------|
+| 1    | Open the registration page     | -                           | The form is loaded                                    |
+| 2    | Enter invalid email            | donaldtrump2025@mail.com    | Error message: "Invalid email format" is shown        |
+| 3    | Enter password                 | trumptower2025!@            | Password is entered into the field                    |
+| 4    | Click the register button      | -                           | Form is not submitted, error message stays visible    |
