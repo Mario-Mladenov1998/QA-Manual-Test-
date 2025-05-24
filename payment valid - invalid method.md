@@ -1,3 +1,4 @@
+1
 ### Test Case ID: TC-PAYMENT-001
 | Field             | Description                                      |
 |------------------|--------------------------------------------------|
@@ -19,7 +20,7 @@
 
 
 
-
+2
 ### Test Case ID: TC-PAYMENT-002
 | Field             | Description                                      |
 |------------------|--------------------------------------------------|
@@ -42,8 +43,8 @@
 
 
 
-
-### Test Case ID: TC-CART-002
+3
+### Test Case ID: TC-CART-003
 | Field          | Description                             |
 |---------------|-----------------------------------------|
 | Title          | Attempt to add out-of-stock product     |
