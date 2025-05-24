@@ -56,7 +56,7 @@
 
 
 
- 📄 Test Case – Upload file over size limit
+ 📄 Test Case 4  – Upload file over size limit
 | Field           | Value                           |
 |-----------------|---------------------------------|
 | Test Case ID    | TC_UPLOAD_002                   |
@@ -73,3 +73,22 @@
 | 1    | Navigate to upload page | dev.bg/upload.page | Upload page is loaded          |
 | 2    | Select file (6MB)       | file_test_6mb.pdf  | Error shown: "File too large"  |
 | 3    | Click "Upload" button   | —                  | Upload is blocked              |
+
+
+
+📄 Test Case 5 – Upload without selecting a file
+| Field           | Value                            |
+|-----------------|----------------------------------|
+| Test Case ID    | TC_UPLOAD_003                    |
+| Title           | Upload with no file selected     |
+| Precondition    | User is on upload page           |
+| Postcondition   | No file is uploaded              |
+| Priority        | Low                              |
+| Severity        | Low                              |
+| Status          | Not Run                          |
+
+| Step | Action                  | Data               | Expected Result                        |
+|------|--------------------------|--------------------|----------------------------------------|
+| 1    | Navigate to upload page | https://www.pcloud.com | Upload page is loaded                  |
+| 2    | Do not select a file    | —                  | No file is selected                    |
+| 3    | Click "Upload" button   | —                  | Error shown: "Please select a file"    |
