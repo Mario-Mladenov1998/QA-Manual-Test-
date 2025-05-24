@@ -149,5 +149,5 @@ The user remains on the registration page, form is not submitted.
 | 1       | Navigate to login page   | login.website.com           | Login page is loaded                                   |
 | 2       | Enter email              | testuser@mail.com           | Email is visible in the input field                    |
 | 3       | Enter incorrect password | WrongPass123!               | Password appears as hidden dots (•••••••)              |
-| 4       | Click "Login" button     | —                           |No reset email is sent        |
+| 4       | Click "Login" button     | —                           |Please, enter a valid email addres        |
 
