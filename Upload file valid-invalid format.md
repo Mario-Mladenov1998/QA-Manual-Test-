@@ -34,7 +34,7 @@
 | 3    | Click upload button      | –                | Error shown: File format not allow
 
 
- 3. Upload a file exactly at the maximum size (5MB)
+ 3. ✅  Upload a file exactly at the maximum size (5MB)
 
 | Step | Action                     | Data                | Expected Result            |
 |------|----------------------------|---------------------|----------------------------|
@@ -56,7 +56,7 @@
 
 
 
- 📄 Test Case 4  – Upload file over size limit
+ 📄 ❌ Test Case 4  – Upload file over size limit
 | Field           | Value                           |
 |-----------------|---------------------------------|
 | Test Case ID    | TC_UPLOAD_002                   |
