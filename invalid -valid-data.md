@@ -108,7 +108,7 @@ The user remains on the registration page, form is not submitted.
 
 ---
 
-## 🔹 Test Steps
+## 5. ✅ Test Case: Change password with valid data 
 
 | Step | Action               | Test Data                | Expected Result                                   |
 |------|----------------------|--------------------------|---------------------------------------------------|
@@ -117,4 +117,20 @@ The user remains on the registration page, form is not submitted.
 | 3    | Enter password       | strongpassword123!@#     | Password is entered (masked as bullets)           |
 | 4    | Click "Login" button | –                        | User is logged in and redirected to homepage      |
 
+
+| Step | Action                         | Data                 | Expected result              |
+|-------|-------------------------------|----------------------|-----------------------------|
+| 1     | Navigate to the "Change password" page | https://login.yahoo.com/ | Change password page is loaded |
+| 2     | Enter current password         | StrongPASS123@       | Password is entered         |
+| 3     | Enter new password             | DonaldTrump2025!     | Password is changed         |
+| 4     | Confirm new password           | DonladTrump2025!     | Password is entered correctly |
+| 5     | Click "Submit" button          |                      | Password successfully changed |
+
+| Test Case ID  | TC_ChangePassword_01               |
+|--------------|----------------------------------|
+| Title        | Change password with valid data  |
+| Preconditions| User is logged in                |
+| Postconditions| User can login with new password |
+| Priority     | Medium                           |
+| Severity     | Medium                           |
 
