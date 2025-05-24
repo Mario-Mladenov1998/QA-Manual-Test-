@@ -130,16 +130,17 @@ The user remains on the registration page, form is not submitted.
 
 
  
-| **Test Case**                         | 6.  ❌ Forgot password with invalid email                       |
-|--------------------------------------|----------------------------------------------------------|
-| **Pre-conditions**                   | User is on the forgot password page                      |
-| **Post-conditions**                  | User is not logged in                                    |
-| **Priority**                         | Medium                                                   |
-| **Severity**                         | Minor                                                    |
-| **Type**                             | Negative                                                 |
-| **Tested URL**                       | https://login.yahoo.com/account/challenge/username       |
-| **Test Steps**                       | **Test Data**                   | **Expected Result**                    |
-|--------------------------------------|----------------------------------|----------------------------------------|
-| 1. Navigate to "Forgot password"     | N/A                              | Forgot password is loaded              |
-| 2. Enter invalid email               | invalidmail@yahoo.com            | Error shown message: "Invalid password or email" |
-| 3. Click "Submit" button             | N/A                              | Please, enter a valid email address    |
+| Test Case Title                    | Forgot password with invalid email                  |
+|-----------------------------------|-----------------------------------------------------|
+| Pre-conditions                    | User is on the forgot password page                |
+| Post-conditions                   | User is not logged in                              |
+| Priority                          | Medium                                              |
+| Severity                          | Minor                                               |
+| Type                              | Negative                                            |
+| Tested URL                        | https://login.yahoo.com/account/challenge/username |
+
+| Step | Action                    | Test Data              | Expected Result                                |
+|------|---------------------------|------------------------|-------------------------------------------------|
+| 1    | Navigate to forgot page   | N/A                    | Forgot password is loaded                       |
+| 2    | Enter invalid email       | invalidmail@yahoo.com  | Error shown message: "Invalid password or email"|
+| 3    | Click "Submit" button     | N/A                    | Please, enter a valid email address             |
