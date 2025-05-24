@@ -125,27 +125,21 @@ The user remains on the registration page, form is not submitted.
 | 3     | Enter new password             | DonaldTrump2025!     | Password is changed         |
 | 4     | Confirm new password           | DonladTrump2025!     | Password is entered correctly |
 | 5     | Click "Submit" button          |                      | Password successfully changed |
- 
- 
-| ❌ 6.  Test Case ID  | TC_ChangePassword_01               |
-|--------------|----------------------------------|
-| Title        | Change password with valid data  |
-| Preconditions| User is logged in                |
-| Postconditions| User can login with new password |
-| Priority     | Medium                           |
-| Severity     | Medium                           |
 
 
-| **Test Case**                         | Forgot password with invalid email                       |
-|--------------------------------------|----------------------------------------------------------|
-| **Pre-conditions**                   | User is on the forgot password page                      |
-| **Post-conditions**                  | User is not logged in                                    |
-| **Priority**                         | Medium                                                   |
-| **Severity**                         | Minor                                                    |
-| **Type**                             | Negative                                                 |
-| **Tested URL**                       | https://login.yahoo.com/account/challenge/username       |
-| **Test Steps**                       | **Test Data**                   | **Expected Result**                    |
-|--------------------------------------|----------------------------------|----------------------------------------|
-| 1. Navigate to "Forgot password"     | N/A                              | Forgot password is loaded              |
-| 2. Enter invalid email               | invalidmail@yahoo.com            | Error shown message: "Invalid password or email" |
-| 3. Click "Submit" button             | N/A                              | Please, enter a valid email address    |
+
+
+ 
+ | 6. ❌ **Test Case** | Forgot password with invalid email |
+|---------------|------------------------------------|
+| **Pre-condition** | User is on the forgot password page |
+| **Post-condition** | User is not logged in |
+| **Priority** | Medium |
+| **Severity** | Medium |
+| **Type** | Negative |
+| **Module** | Authentication |
+| **Tested on** | Chrome / Windows 10 |
+| **Test Steps** | **Test Data** | **Expected Result** |
+| 1. Navigate to "Forgot password" page | [Yahoo forgot password URL](https://login.yahoo.com/account/challenge/username?lang=bg-BG&src=ym&done=https%3A%2F%2Fmail.yahoo.com%2F%3Fguce_referrer%3DaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8%26guce_referrer_sig%3DAQAAAB-wE_FYkW17Dz1zORmv4qeCLaMIXuloAGb_Lgo_VlYSKU1BsazEMg8kI-HEgdDeME5mL9iMuheFPlTbPGJdrAl9w8OuXewIEnTPPYfFhwSN80zIfMd4_4pf-G32B7TKPM3ytnsqekoEQmFNSnJkuljiCVVSvpC10OggkD6QLF7x&authMechanism=secondary&sessionIndex=Qw--) | Forgot password page is loaded |
+| 2. Enter invalid email | `invalidmail@yahoo.com` | Error message shown: "Invalid password or email" |
+| 3. Click "Submit" button | — | Error message shown: "Please, enter a valid email address" |
