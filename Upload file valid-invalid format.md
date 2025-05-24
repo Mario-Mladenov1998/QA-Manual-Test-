@@ -32,3 +32,23 @@
 | 1    | Open upload page         | –                | Upload page is loaded                  |
 | 2    | Choose unsupported file  | file.exe (2MB)   | File is selected                       |
 | 3    | Click upload button      | –                | Error shown: File format not allow
+
+
+
+
+| Step | Action                     | Data                | Expected Result            |
+|------|----------------------------|---------------------|----------------------------|
+| 1    | Navigate to upload page    | dev.bg/upload.page  | Upload page is loaded      |
+| 2    | Select file (5MB)          | file_test_5mb.pdf   | File is selected           |
+| 3    | Click "Upload" button      | —                   | File is uploaded           |
+
+
+| Field           | Value                      |
+|-----------------|----------------------------|
+| Test Case ID    | TC_UPLOAD_001              |
+| Title           | Upload file (max size)     |
+| Precondition    | User is on upload page     |
+| Postcondition   | File is uploaded           |
+| Priority        | Medium                     |
+| Severity        | Medium                     |
+| Status          | Not Run                    |
