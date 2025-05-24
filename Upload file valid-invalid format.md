@@ -6,12 +6,12 @@
 | 3    | Click upload button    | –             | File is uploaded successfully |
 | 4    | Check success message  | –             | Message shown: Upload successful |
 
-Field	Value
-Title	Upload valid file
-Priority	Medium
-Severity	Medium
-Type	Positive
-Precondition	User is on upload page
+| Field	Value |
+| Title	Upload valid file |
+| Priority	Medium |
+| Severity	Medium |
+| Type	Positive |
+| Precondition	User is on upload page |
 
 
 
