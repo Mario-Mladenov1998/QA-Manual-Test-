@@ -125,8 +125,9 @@ The user remains on the registration page, form is not submitted.
 | 3     | Enter new password             | DonaldTrump2025!     | Password is changed         |
 | 4     | Confirm new password           | DonladTrump2025!     | Password is entered correctly |
 | 5     | Click "Submit" button          |                      | Password successfully changed |
-
-| Test Case ID  | TC_ChangePassword_01               |
+ 
+ 
+| ❌ 6.  Test Case ID  | TC_ChangePassword_01               |
 |--------------|----------------------------------|
 | Title        | Change password with valid data  |
 | Preconditions| User is logged in                |
@@ -134,20 +135,17 @@ The user remains on the registration page, form is not submitted.
 | Priority     | Medium                           |
 | Severity     | Medium                           |
 
-🛑 Forgot password with invalid email 
-| **Test Case Title**         | Login with wrong credentials – generic error |
-|----------------------------|---------------------------------------------|
-| **Pre-condition**          | User is on the login page                   |
-| **Post-condition**         | User is not logged in                       |
-| **Priority**               | High                                        |
-| **Severity**               | Major                                       |
-| **Type**                   | Negative                                    |
-| **Tested on**              | Web/Desktop                                 |
 
-| **Step** | **Action**               | **Data**                    | **Expected Result**                                   |
-|---------|--------------------------|-----------------------------|--------------------------------------------------------|
-| 1       | Navigate to login page   | login.website.com           | Login page is loaded                                   |
-| 2       | Enter email              | testuser@mail.com           | Email is visible in the input field                    |
-| 3       | Enter incorrect password | WrongPass123!               | Password appears as hidden dots (•••••••)              |
-| 4       | Click "Login" button     | —                           |Please, enter a valid email addres        |
-
+| **Test Case**                         | Forgot password with invalid email                       |
+|--------------------------------------|----------------------------------------------------------|
+| **Pre-conditions**                   | User is on the forgot password page                      |
+| **Post-conditions**                  | User is not logged in                                    |
+| **Priority**                         | Medium                                                   |
+| **Severity**                         | Minor                                                    |
+| **Type**                             | Negative                                                 |
+| **Tested URL**                       | https://login.yahoo.com/account/challenge/username       |
+| **Test Steps**                       | **Test Data**                   | **Expected Result**                    |
+|--------------------------------------|----------------------------------|----------------------------------------|
+| 1. Navigate to "Forgot password"     | N/A                              | Forgot password is loaded              |
+| 2. Enter invalid email               | invalidmail@yahoo.com            | Error shown message: "Invalid password or email" |
+| 3. Click "Submit" button             | N/A                              | Please, enter a valid email address    |
