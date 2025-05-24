@@ -57,5 +57,5 @@
 
 | Step | Action                         | Test Data     | Expected Result                |
 |------|--------------------------------|---------------|--------------------------------|
-| 1    | Go to product page             | –             | Product page is loaded         |
+| 1    | Go to product page             | Amazon.com             | Product page is loaded |         
 | 2    | Click “Add to Cart” button     | –             | Error shown: Out of stock      |
