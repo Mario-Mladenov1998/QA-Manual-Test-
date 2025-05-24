@@ -34,7 +34,7 @@
 | 3    | Click upload button      | –                | Error shown: File format not allow
 
 
-
+ 3. Upload a file exactly at the maximum size (5MB)
 
 | Step | Action                     | Data                | Expected Result            |
 |------|----------------------------|---------------------|----------------------------|
