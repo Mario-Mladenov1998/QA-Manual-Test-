@@ -134,7 +134,7 @@ The user remains on the registration page, form is not submitted.
 | Priority     | Medium                           |
 | Severity     | Medium                           |
 
-
+🛑 Forgot password with invalid email 
 | **Test Case Title**         | Login with wrong credentials – generic error |
 |----------------------------|---------------------------------------------|
 | **Pre-condition**          | User is on the login page                   |
@@ -152,4 +152,4 @@ The user remains on the registration page, form is not submitted.
 | 4       | Click "Login" button     | —                           | Error message shown: "Wrong email or password"         |
 
 **Notes:**  
-This generic error message is a **security measure** to prevent attackers from knowing whether the email or the password is incorrect. Systems often return the same error for both cases to avoid leaking valid credentials.
+🛑 This generic error message is a **security measure** to prevent attackers from knowing whether the email or the password is incorrect. Systems often return the same error for both cases to avoid leaking valid credentials.
