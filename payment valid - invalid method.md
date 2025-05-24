@@ -38,3 +38,23 @@
 | 3    | Enter invalid expiration date     | 01/20                            | Error shown: “Card expired”                               |
 | 4    | Enter invalid CVV                 | 1                                | Error shown: “Invalid CVV”                                |
 | 5    | Click “Pay” button                | –                                | Payment fails, message shown: “Payment could not be completed” |
+
+
+
+
+
+### Test Case ID: TC-CART-002
+| Field          | Description                             |
+|---------------|-----------------------------------------|
+| Title          | Attempt to add out-of-stock product     |
+| Priority       | Medium                                  |
+| Severity       | Minor                                   |
+| Type           | Negative                                |
+| Preconditions  | Product is out of stock                 |
+
+### 🔹 Test Steps
+
+| Step | Action                         | Test Data     | Expected Result                |
+|------|--------------------------------|---------------|--------------------------------|
+| 1    | Go to product page             | –             | Product page is loaded         |
+| 2    | Click “Add to Cart” button     | –             | Error shown: Out of stock      |
