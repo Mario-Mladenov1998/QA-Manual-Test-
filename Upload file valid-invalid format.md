@@ -52,3 +52,21 @@
 | Priority        | Medium                     |
 | Severity        | Medium                     |
 | Status          | Not Run                    |
+
+4. 📄 Test Case – Upload file over size limit
+| Field           | Value                           |
+|-----------------|---------------------------------|
+| Test Case ID    | TC_UPLOAD_002                   |
+| Title           | Upload file over max size (6MB) |
+| Precondition    | User is on upload page          |
+| Postcondition   | File is not uploaded            |
+| Priority        | Medium                          |
+| Severity        | Medium                          |
+| Status          | Not Run                         |
+
+
+| Step | Action                  | Data               | Expected Result                |
+|------|--------------------------|--------------------|--------------------------------|
+| 1    | Navigate to upload page | dev.bg/upload.page | Upload page is loaded          |
+| 2    | Select file (6MB)       | file_test_6mb.pdf  | Error shown: "File too large"  |
+| 3    | Click "Upload" button   | —                  | Upload is blocked              |
