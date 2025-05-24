@@ -53,7 +53,7 @@
 | Severity        | Medium                     |
 | Status          | Not Run                    |
 
-4. 📄 Test Case – Upload file over size limit
+ 📄 Test Case – Upload file over size limit
 | Field           | Value                           |
 |-----------------|---------------------------------|
 | Test Case ID    | TC_UPLOAD_002                   |
