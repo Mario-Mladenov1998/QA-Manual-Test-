@@ -134,3 +134,22 @@ The user remains on the registration page, form is not submitted.
 | Priority     | Medium                           |
 | Severity     | Medium                           |
 
+
+| **Test Case Title**         | Login with wrong credentials – generic error |
+|----------------------------|---------------------------------------------|
+| **Pre-condition**          | User is on the login page                   |
+| **Post-condition**         | User is not logged in                       |
+| **Priority**               | High                                        |
+| **Severity**               | Major                                       |
+| **Type**                   | Negative                                    |
+| **Tested on**              | Web/Desktop                                 |
+
+| **Step** | **Action**               | **Data**                    | **Expected Result**                                   |
+|---------|--------------------------|-----------------------------|--------------------------------------------------------|
+| 1       | Navigate to login page   | login.website.com           | Login page is loaded                                   |
+| 2       | Enter email              | testuser@mail.com           | Email is visible in the input field                    |
+| 3       | Enter incorrect password | WrongPass123!               | Password appears as hidden dots (•••••••)              |
+| 4       | Click "Login" button     | —                           | Error message shown: "Wrong email or password"         |
+
+**Notes:**  
+This generic error message is a **security measure** to prevent attackers from knowing whether the email or the password is incorrect. Systems often return the same error for both cases to avoid leaking valid credentials.
