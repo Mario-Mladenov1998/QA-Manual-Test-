@@ -76,7 +76,7 @@
 
 
 
-📄 Test Case 5 – Upload without selecting a file
+📄 ❌ Test Case 5 – Upload without selecting a file
 | Field           | Value                            |
 |-----------------|----------------------------------|
 | Test Case ID    | TC_UPLOAD_003                    |
