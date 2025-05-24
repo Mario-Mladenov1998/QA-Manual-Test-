@@ -130,7 +130,7 @@ The user remains on the registration page, form is not submitted.
 
 
  
-| Test Case Title                    | Forgot password with invalid email                  |
+| Test Case Title                    | 6. ❌  Forgot password with invalid email                  |
 |-----------------------------------|-----------------------------------------------------|
 | Pre-conditions                    | User is on the forgot password page                |
 | Post-conditions                   | User is not logged in                              |
