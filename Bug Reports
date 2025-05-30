@@ -1,4 +1,1 @@
-
-git add -A
-git commit -m "Removed empty folder"
-git push
+Delete file to remove folder 
