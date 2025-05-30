@@ -1,4 +1,4 @@
-🐞 Bug Report: "Add BUG Report" Registration accepted with invalid email
+🐞 Bug Report: Registration accepted with invalid email
 Description:
 The registration form accepts an invalid email format and creates an account instead of showing an error.
 
