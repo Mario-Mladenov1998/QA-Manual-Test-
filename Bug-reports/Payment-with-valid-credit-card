@@ -1,0 +1,24 @@
+### Description:
+Payment with valid credit card is not working — transaction fails.
+
+### Pre-conditions:
+User is on the payment page.
+
+### Steps to reproduce:
+1. Navigate to the payment page.  
+2. Enter `12 734 789 9823` in the "Card number" field.  
+3. Enter `27/07/2027` in the "Expiration date" field.  
+4. Enter `898` in the "CVV" field.  
+5. Click the "Submit" button.
+
+### Actual Result:
+Error message shown: **"Unsuccessful payment with credit card"**
+
+### Expected Result:
+Payment is processed successfully, and purchase is completed.
+
+### Severity:
+Critical
+
+### Environment:
+Google Chrome Version: 137.0.7151.56 (64-bit)
