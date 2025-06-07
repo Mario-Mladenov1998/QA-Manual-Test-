@@ -103,7 +103,7 @@ Verify that the search functionality returns relevant products based on the ente
 
 
 
-
+4.✅ Regression E2E Test – Register, Add Product & Complete Order
 
 | Field              | Value                 |
 |--------------------|-----------------------|
