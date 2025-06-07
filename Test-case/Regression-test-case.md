@@ -29,33 +29,36 @@
 
 
 
+# ✅ Regression Test - Add product to cart and verify
 
-✅ 2. Regression Test - Add product to cart and verify
-📌 Description:
-The product must be added successfully: View Cart
+## 📌 Description
+The product must be added successfully: [View Cart](https://automationexercise.com/view_cart)
 
-🧩 Metadata
-Field	Value
-Suite	Regression Test Case
-Severity	Critical
-Priority	High
-Type	Regression
-Layer	E2E
-Automation status	Manual
-Behavior	Positive
-Status	Actual
-Milestone	Not set
-Is flaky	No
-Pre-condition	User is logged in
-Post-condition	Product appears in the cart
+## 🧩 Metadata
 
-🧪 Test Steps
-Step	Action	Expected Result
-1	Navigate to automationexercise.com	Home page is loaded
-2	Enter valid email: mariomladenov1920@abv.bg	Text appears in the field
-3	Enter valid password: Mariomladenov1234	Password is hidden (********)
-4	Click "Signup/Login" and log in	User is redirected to homepage and logged in
-5	Go to "Products" page	Products page is displayed
-6	Click "Add to cart" on any product	Product is added to cart
-7	Click "Cart" in the top navigation bar	Cart page shows the product and correct price
+| Field              | Value                       |
+|--------------------|-----------------------------|
+| Suite              | Regression Test Case        |
+| Severity           | Critical                    |
+| Priority           | High                        |
+| Type               | Regression                  |
+| Layer              | E2E                         |
+| Automation status  | Manual                      |
+| Behavior           | Positive                    |
+| Status             | Actual                      |
+| Milestone          | Not set                     |
+| Is flaky           | No                          |
+| Pre-condition      | User is logged in           |
+| Post-condition     | Product appears in the cart |
 
+## 🧪 Test Steps
+
+| Step | Action                                                            | Expected Result                                |
+|------|-------------------------------------------------------------------|------------------------------------------------|
+| 1    | Navigate to [automationexercise.com](https://automationexercise.com) | Home page is loaded                            |
+| 2    | Enter valid email: `mariomladenov1920@abv.bg`                    | Text appears in the field                      |
+| 3    | Enter valid password: `Mariomladenov1234`                        | Password is hidden (********)                 |
+| 4    | Click "Signup/Login" and log in                                  | User is redirected to homepage and logged in   |
+| 5    | Go to "Products" page                                             | Products page is displayed                     |
+| 6    | Click "Add to cart" on any product                               | Product is added to cart                       |
+| 7    | Click "Cart" in the top navigation bar                           | Cart page shows the product and correct price  |
