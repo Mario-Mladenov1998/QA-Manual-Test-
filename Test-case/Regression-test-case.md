@@ -101,3 +101,37 @@ Verify that the search functionality returns relevant products based on the ente
 | 4    | Click the search button                                   | Search results are shown                       |
 | 5    | Verify that products related to `Tshirt` are displayed    | Relevant products are shown in a grid/list     |
 
+
+
+
+
+
+4.✅ Regression E2E Test – Register, Add Product & Complete Order
+🧩 Metadata
+Field	Value
+Suite	Regression Test Case
+Severity	Critical
+Priority	High
+Type	Regression
+Layer	E2E
+Automation status	Manual
+Behavior	Positive
+Status	Actual
+Milestone	Not set
+Is flaky	No
+Pre-condition	-
+Post-condition - The order is complete.
+
+| Step | Action                                    | Expected Result                     |
+|-------|-------------------------------------------|------------------------------------|
+| 1     | Navigate to https://automationexercise.com | Home page is loaded                 |
+| 2     | Click on "Signup/Login"                    | Redirected to Signup/Login form     |
+| 3     | Enter name and valid email address         | Fields accept data                  |
+| 4     | Click "Signup"                             | Redirected to signup details form  |
+| 5     | Fill in all required information and submit | Account is created, redirected to home |
+| 6     | Go to "Products"                           | Products page is displayed          |
+| 7     | Click "Add to cart" on a product           | Product is added to cart            |
+| 8     | Click "Cart"                              | Cart page shows product             |
+| 9     | Click "Proceed to checkout"                | Checkout page is shown              |
+| 10    | Fill in delivery details and click "Place Order" | Payment page is shown              |
+| 11    | Enter credit card details and submit       | Order confirmation message is shown|
