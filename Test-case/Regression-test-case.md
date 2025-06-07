@@ -105,21 +105,20 @@ Verify that the search functionality returns relevant products based on the ente
 
 
 
-4.✅ Regression E2E Test – Register, Add Product & Complete Order
-🧩 Metadata
-Field	Value
-Suite	Regression Test Case
-Severity	Critical
-Priority	High
-Type	Regression
-Layer	E2E
-Automation status	Manual
-Behavior	Positive
-Status	Actual
-Milestone	Not set
-Is flaky	No
-Pre-condition	-
-Post-condition	The order is complete
+| Field              | Value                 |
+|--------------------|-----------------------|
+| Suite              | Regression Test Case  |
+| Severity           | Critical              |
+| Priority           | High                  |
+| Type               | Regression            |
+| Layer              | E2E                   |
+| Automation status   | Manual                |
+| Behavior           | Positive              |
+| Status             | Actual                |
+| Milestone          | Not set               |
+| Is flaky           | No                    |
+| Pre-condition      | -                     |
+| Post-condition     | The order is complete |
 
 
 | Step | Action                                    | Expected Result                     |
