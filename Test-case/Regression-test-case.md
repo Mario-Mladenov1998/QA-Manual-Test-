@@ -32,7 +32,7 @@
 
 
 
-# ✅ Regression Test - Add product to cart and verify
+# 2. ✅ Regression Test - Add product to cart and verify
 
 ## 📌 Description
 The product must be added successfully: [View Cart](https://automationexercise.com/view_cart)
@@ -65,3 +65,39 @@ The product must be added successfully: [View Cart](https://automationexercise.c
 | 5    | Go to "Products" page                                             | Products page is displayed                     |
 | 6    | Click "Add to cart" on any product                               | Product is added to cart                       |
 | 7    | Click "Cart" in the top navigation bar                           | Cart page shows the product and correct price  |
+
+
+
+
+
+
+# 3.✅ Regression Test – Search for a product and verify results
+
+## 📌 Description
+Verify that the search functionality returns relevant products based on the entered keyword.
+
+## 🧩 Metadata
+
+| Field              | Value                       |
+|--------------------|-----------------------------|
+| Suite              | Regression Test Case        |
+| Severity           | Medium                      |
+| Priority           | High                        |
+| Type               | Regression                  |
+| Layer              | E2E                         |
+| Automation status  | Manual                      |
+| Behavior           | Positive                    |
+| Status             | Actual                      |
+| Milestone          | Not set                     |
+| Is flaky           | No                          |
+| Pre-condition      | User is on the homepage     |
+| Post-condition     | Search results are displayed properly |
+
+## 🧪 Test Steps
+
+| Step | Action                                                    | Expected Result                                |
+|------|-----------------------------------------------------------|------------------------------------------------|
+| 1    | Navigate to [automationexercise.com](https://automationexercise.com) | Home page is loaded                            |
+| 2    | Click on “Products” in the top menu                       | Products page is displayed                     |
+| 3    | Type `Tshirt` into the search field                       | Text appears in the search input               |
+| 4    | Click the search button                                   | Search results are shown                       |
