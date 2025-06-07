@@ -69,8 +69,6 @@ The product must be added successfully: [View Cart](https://automationexercise.c
 
 
 
-
-
 # 3.✅ Regression Test – Search for a product and verify results
 
 ## 📌 Description
@@ -101,3 +99,5 @@ Verify that the search functionality returns relevant products based on the ente
 | 2    | Click on “Products” in the top menu                       | Products page is displayed                     |
 | 3    | Type `Tshirt` into the search field                       | Text appears in the search input               |
 | 4    | Click the search button                                   | Search results are shown                       |
+| 5    | Verify that products related to `Tshirt` are displayed    | Relevant products are shown in a grid/list     |
+
