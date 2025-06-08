@@ -76,3 +76,28 @@
 | 1        | Navigate to https://automationexercise.com | Home page is loaded                             |
 | 2        | Click on "Contact Us"                      | "Contact Us" page is displayed                   |
 | 3        | Click on "Submit" button without data      | Error message appears: required fields missing  |
+
+
+
+4. ❌ Regression Test with existing email
+| **Title**             | Unsuccessful Signup With Existing Email              |
+|----------------------|-------------------------------------------------------|
+| **Description**       | User cannot sign up using an email that is already registered |
+| **Type**              | Regression                                            |
+| **Layer**             | E2E                                                   |
+| **Severity**          | Major                                                 |
+| **Priority**          | High                                                  |
+| **Automation status** | Manual                                                |
+| **Behavior**          | Negative                                              |
+| **Status**            | Actual                                                |
+| **Pre-condition**     | Email already registered in the system                |
+| **Post-condition**    | User is not signed up and sees an error message       |
+
+### Test Steps
+
+| **Step** | **Action**                                         | **Expected Result**                                      |
+|---------:|-----------------------------------------------------|----------------------------------------------------------|
+| 1        | Navigate to https://automationexercise.com          | Home page is loaded                                      |
+| 2        | Click on "Signup/Login"                             | Signup/Login page is displayed                           |
+| 3        | Enter a name and an email that is already registered | Input is accepted                                        |
+| 4        | Click "Signup"                                      | Error message shown: "Email Address already exists!"     |
