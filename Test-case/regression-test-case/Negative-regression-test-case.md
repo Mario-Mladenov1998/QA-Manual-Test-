@@ -52,3 +52,27 @@
 | 2    | Click on "Signup/Login" and log in                  | User is logged in                             |
 | 3    | Click on "Cart"                                     | Cart page is shown (empty)                    |
 | 4    | Click "Proceed to Checkout"                         | Error or message: "Cart is empty"             |
+
+
+3.❌ Regression Test – Submit contact form with empty required fields
+
+| **Title**             | Submit Contact Form Without Data                      |
+|----------------------|--------------------------------------------------------|
+| **Description**       | Unsuccessful Contact form with empty required fields  |
+| **Type**              | Regression                                             |
+| **Layer**             | E2E                                                    |
+| **Severity**          | Minor                                                  |
+| **Priority**          | Medium                                                 |
+| **Automation status** | Manual                                                 |
+| **Behavior**          | Negative                                               |
+| **Status**            | Actual                                                 |
+| **Pre-condition**     | User is on the "Contact Us" page                       |
+| **Post-condition**    | Form is not submitted, error message is shown          |
+
+### Test Steps
+
+| **Step** | **Action**                                | **Expected Result**                             |
+|---------:|--------------------------------------------|-------------------------------------------------|
+| 1        | Navigate to https://automationexercise.com | Home page is loaded                             |
+| 2        | Click on "Contact Us"                      | "Contact Us" page is displayed                   |
+| 3        | Click on "Submit" button without data      | Error message appears: required fields missing  |
