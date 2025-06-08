@@ -80,6 +80,8 @@
 
 
 4. ❌ Regression Test with existing email
+
+   
 | **Title**             | Unsuccessful Signup With Existing Email              |
 |----------------------|-------------------------------------------------------|
 | **Description**       | User cannot sign up using an email that is already registered |
