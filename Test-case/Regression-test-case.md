@@ -134,3 +134,29 @@ Verify that the search functionality returns relevant products based on the ente
 | 9     | Click "Proceed to checkout"                | Checkout page is shown              |
 | 10    | Fill in delivery details and click "Place Order" | Payment page is shown              |
 | 11    | Enter credit card details and submit       | Order confirmation message is shown|
+
+
+
+5.✅ Regression E2E Test – Delete product from cart
+
+| Field             | Value                |
+|-------------------|----------------------|
+| Suite             | Regression           |
+| Severity          | Medium               |
+| Priority          | High                 |
+| Type              | Regression           |
+| Layer             | E2E                  |
+| Automation status | Manual               |
+| Behavior          | Positive             |
+| Status            | Actual               |
+| Pre-condition     | Product added to cart|
+| Post-condition    | Product removed      |
+
+## 🧪 Test Steps
+
+| Step | Action                                  | Expected Result            |
+|------|------------------------------------------|----------------------------|
+| 1    | Go to https://automationexercise.com    | Home page is load           |
+| 2    | Click on "Cart"                         | Cart open                   |
+| 3    | Click "X" to delete product             | Product is removed          |
+| 4    | Check cart                              | The cart is empty           |
