@@ -1,6 +1,6 @@
 # 🧪 QA Manual Testing Project – automationexercise.com
 ## 📌 Description
-This project demonstrates manual testing of the web application [https://www.saucedemo.com](https://www.saucedemo.com).  
+This project demonstrates manual testing of the web application [automationexercise.com).  
 It includes real test cases created in Qase.io, covering positive, negative, and regression scenarios.
 
 ## ✅ Test Types:
