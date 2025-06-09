@@ -24,3 +24,7 @@ It includes real test cases created in Qase.io, covering positive, negative, and
 
 👤 Author: Mario Mladenov  
 📅 Year: 2025
+
+
+
+📘 [SDLC & STLC Overview](./SDLC-STLC.md)
