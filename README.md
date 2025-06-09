@@ -18,7 +18,7 @@ It includes real test cases created in Qase.io, covering positive, negative, and
 - `README.md` – this description file
 
 ## 🔗 Links:
-- [Qase Project Link](your-public-link-or-note-if-private)
+- [Qase Project Link](https://github.com/Mario-Mladenov1998/QA-Manual-Test-/tree/main/Test-case)
 
 ---
 
