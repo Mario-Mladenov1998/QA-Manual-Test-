@@ -161,3 +161,38 @@
 |        5 | Enter only **2 digits** in the **Card Number** field                         | Validation error should appear: "Invalid card number" |
 |        6 | Fill in other required fields and click "Pay"                                | ❌ **Actual result**: Order is accepted                |
 
+
+
+
+
+### ❌ 7. Test Case – Order Accepted with Invalid Card Name
+
+| **Field**            | **Value**                                                                  |
+|----------------------|----------------------------------------------------------------------------|
+| **Title**            | Order Accepted with Invalid Card Name                                     |
+| **Description**      | The system accepted an order where the "Name on Card" field had only 2 letters. |
+| **Suite**            | Regression Test Case                                                       |
+| **Severity**         | Critical                                                                   |
+| **Priority**         | High                                                                       |
+| **Type**             | Regression                                                                 |
+| **Layer**            | E2E                                                                        |
+| **Automation status**| Manual                                                                     |
+| **Behavior**         | Negative                                                                   |
+| **Status**           | Actual                                                                     |
+| **Is flaky**         | No                                                                         |
+| **Milestone**        | Not set                                                                    |
+
+
+### 🧪 Test Steps
+
+| **Step** | **Action**                                           | **Expected Result**                                                 |
+|---------:|-------------------------------------------------------|----------------------------------------------------------------------|
+| 1        | Navigate to `https://automationexercise.com`          | Home page is loaded                                                  |
+| 2        | Login with valid credentials                          | User is logged in                                                    |
+| 3        | Add a product to the cart                             | Product is added                                                     |
+| 4        | Click on “Proceed to checkout”                        | Checkout page is displayed                                           |
+| 5        | Enter only **2 letters** in the “Name on Card” field  | Input is accepted                                                    |
+| 6        | Click “Pay and Confirm Order”                         | ❌ Order is accepted, but it should not be                           |
+
+
+
