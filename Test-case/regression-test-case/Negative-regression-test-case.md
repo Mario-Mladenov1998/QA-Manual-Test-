@@ -130,3 +130,24 @@
 |        5 | Enter expired date in the "Expiration" field                                 | Expired date is accepted                          |
 |        6 | Click "Pay and Confirm Order"                                                | ❌ Order goes through, but should show error (BUG) |
 
+
+🧪 6. Regression Test – Submit Payment With Invalid Card Number
+
+| **Field**             | **Value**                               |
+| --------------------- | --------------------------------------- |
+| **Title**             | Submit Payment With Invalid Card Number |
+| **Suite**             | Regression Test Case                    |
+| **Severity**          | Critical                                |
+| **Priority**          | High                                    |
+| **Type**              | Regression                              |
+| **Layer**             | E2E                                     |
+| **Status**            | Actual                                  |
+| **Behavior**          | Negative                                |
+| **Automation status** | Manual                                  |
+| **Is flaky**          | No                                      |
+| **Milestone**         | Not set                                 |
+| **Pre-condition**     | User is on the payment page             |
+| **Post-condition**    | Order is placed with invalid data       |
+| **Description**       | The system accept order with invalid card number |
+
+
