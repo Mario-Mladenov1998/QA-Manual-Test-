@@ -41,5 +41,7 @@ Click Pay and Confirm Order
 "Invalid expiration date. Please use a valid card."
 The order must not be processed.
 
-📎 Attachments: ![Екранна снимка 2025-06-15 152156](https://github.com/user-attachments/assets/bceb7a38![Екранна снимка 2025-06-15 152220](https://github.com/user-attachments/assets/47b3026b-ba14-48ea-ac65-701225935522)
+📎 Attachments: ![Екранна снимка 2025-06-15 152156](https://github.com/user-attachments/assets/bceb7a38![Екранна снимка 2025-06-15 152220]
+
+(https://github.com/user-attachments/assets/47b3026b-ba14-48ea-ac65-701225935522)
 -7239-456a-9c86-96da2b22dd6e)
