@@ -106,48 +106,27 @@
 
 
 
- Regression E2E Test – Submit Payment Form With Expired Credit Card
- 
-Title	Submit Payment Form With Expired Credit Card
-
-Status	Actual
-
-Description	The order is successful with expired credit card
-
-Suite	Regression Test Case
-
-Severity	Major
-
-Priority	Medium
-
-Type	Negative
-
-Layer	E2E
-
-Automation status	Manual
-
-Is flaky	No
-
-Milestone	Not set
-
-Behavior	Negative
-
-Pre-condition	The user is on the payment page
-
-Post-condition	The order is created with invalid data
+ | **Title**             | Unsuccessful Order With Expired Credit Card             |
+| --------------------- | ------------------------------------------------------- |
+| **Description**       | User is able to complete order using expired card (BUG) |
+| **Type**              | Regression                                              |
+| **Layer**             | E2E                                                     |
+| **Severity**          | Critical                                                |
+| **Priority**          | High                                                    |
+| **Automation status** | Manual                                                  |
+| **Behavior**          | Negative                                                |
+| **Status**            | Actual                                                  |
+| **Pre-condition**     | User is on the payment page                             |
+| **Post-condition**    | Order is wrongly marked as successful                   |
 
 
 
-🧪 Test Steps
-Step	Action	Expected Result
-1	Navigate to https://automationexercise.com	Home page is loaded
+| **Step** | **Action**                                                                   | **Expected Result**                               |
+| -------: | ---------------------------------------------------------------------------- | ------------------------------------------------- |
+|        1 | Navigate to [https://automationexercise.com](https://automationexercise.com) | Home page is loaded                               |
+|        2 | Login with valid credentials                                                 | User is logged in                                 |
+|        3 | Add any product to the cart                                                  | Product is added                                  |
+|        4 | Click on "Cart" and proceed to checkout                                      | Checkout page is displayed                        |
+|        5 | Enter expired date in the "Expiration" field                                 | Expired date is accepted                          |
+|        6 | Click "Pay and Confirm Order"                                                | ❌ Order goes through, but should show error (BUG) |
 
-2	Enter valid credentials	User is logged in
-
-3	Add product to the cart	The product is added
-
-4	Click "Proceed to checkout"	Checkout page is displayed
-
-5	Enter expired date in the "Expiration" field	Field accepts input
-
-6	Click "Pay and Confirm Order"	 Order goes through (BUG - should fail)
