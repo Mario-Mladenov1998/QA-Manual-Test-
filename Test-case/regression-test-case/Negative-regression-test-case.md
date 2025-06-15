@@ -107,20 +107,33 @@
 
 
  Regression E2E Test – Submit Payment Form With Expired Credit Card
-Field	Value
+ 
 Title	Submit Payment Form With Expired Credit Card
+
 Status	Actual
+
 Description	The order is successful with expired credit card
+
 Suite	Regression Test Case
+
 Severity	Major
+
 Priority	Medium
+
 Type	Negative
+
 Layer	E2E
+
 Automation status	Manual
+
 Is flaky	No
+
 Milestone	Not set
+
 Behavior	Negative
+
 Pre-condition	The user is on the payment page
+
 Post-condition	The order is created with invalid data
 
 
@@ -128,8 +141,13 @@ Post-condition	The order is created with invalid data
 🧪 Test Steps
 Step	Action	Expected Result
 1	Navigate to https://automationexercise.com	Home page is loaded
+
 2	Enter valid credentials	User is logged in
+
 3	Add product to the cart	The product is added
+
 4	Click "Proceed to checkout"	Checkout page is displayed
+
 5	Enter expired date in the "Expiration" field	Field accepts input
+
 6	Click "Pay and Confirm Order"	 Order goes through (BUG - should fail)
