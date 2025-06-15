@@ -151,3 +151,13 @@
 | **Description**       | The system accept order with invalid card number |
 
 
+
+| **Step** | **Action**                                                                   | **Expected Result**                                   |
+| -------: | ---------------------------------------------------------------------------- | ----------------------------------------------------- |
+|        1 | Navigate to [https://automationexercise.com](https://automationexercise.com) | Home page is loaded                                   |
+|        2 | Login with valid credentials                                                 | User is logged in                                     |
+|        3 | Add any product to the cart                                                  | Product is added                                      |
+|        4 | Click "Proceed to checkout"                                                  | Checkout page is displayed                            |
+|        5 | Enter only **2 digits** in the **Card Number** field                         | Validation error should appear: "Invalid card number" |
+|        6 | Fill in other required fields and click "Pay"                                | ❌ **Actual result**: Order is accepted                |
+
