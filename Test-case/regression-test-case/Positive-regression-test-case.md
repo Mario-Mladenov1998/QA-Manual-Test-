@@ -160,3 +160,30 @@ Verify that the search functionality returns relevant products based on the ente
 | 2    | Click on "Cart"                         | Cart open                   |
 | 3    | Click "X" to delete product             | Product is removed          |
 | 4    | Check cart                              | The cart is empty           |
+
+
+6.✅ Test Case – Checkout With Valid Credit Card
+| **Field**          | **Value**                                                   |
+| ------------------ | ----------------------------------------------------------- |
+| **Title**          | Checkout with valid credit card                             |
+| **Description**    | The user completes an order using valid payment information |
+| **Type**           | Regression                                                  |
+| **Layer**          | E2E                                                         |
+| **Severity**       | Normal                                                      |
+| **Priority**       | Medium                                                      |
+| **Automation**     | Manual                                                      |
+| **Behavior**       | Positive                                                    |
+| **Status**         | Actual                                                      |
+| **Is flaky**       | No                                                          |
+| **Pre-condition**  | User is logged in and is on the checkout page               |
+| **Post-condition** | The order is completed successfully                         |
+
+
+| **Step** | **Action**                                                                   | **Expected Result**                   |
+| -------: | ---------------------------------------------------------------------------- | ------------------------------------- |
+|        1 | Navigate to [https://automationexercise.com](https://automationexercise.com) | Home page is loaded                   |
+|        2 | Login with valid credentials                                                 | User is logged in                     |
+|        3 | Add a product to the cart                                                    | Product is added to cart              |
+|        4 | Click on **"Proceed to Checkout"**                                           | Checkout page is displayed            |
+|        5 | Enter **valid credit card data**                                             | Card data appears in the input fields |
+|        6 | Click **"Pay and Confirm Order"** button                                     | Order is successfully completed       |
