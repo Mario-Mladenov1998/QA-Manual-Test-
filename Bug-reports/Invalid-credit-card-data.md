@@ -27,3 +27,8 @@ Error message is shown:
 ## Severity:
 
 **Critical**
+
+Attachments: ![Екранна снимка 2025-06-17 201951](https://github.com/user-attachments/assets/58ffcce9-5439-4c55-8a6f-6f3dbad4a10c)
+
+![Екранна снимка 2025-06-17 202001](https://github.com/user-attachments/assets/76686318-0665-4eba-9790-58fe560cb873)
+
