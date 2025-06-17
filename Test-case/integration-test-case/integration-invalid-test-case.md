@@ -1,4 +1,5 @@
-| **Field**             | **Value**                                         |
+
+❌ | **Field**             | **Value**                                         |
 | --------------------- | ------------------------------------------------- |
 | **Title**             | Order with invalid credit card data.              |
 | **Status**            | Actual                                            |
@@ -15,7 +16,7 @@
 | **Post-condition**    | The order is blocked.                             |
 
 
-| **Step** | **Action**                                                                   | **Expected Result**                                    |
+❌ | **Step** | **Action**                                                                   | **Expected Result**                                    |
 | -------: | ---------------------------------------------------------------------------- | ------------------------------------------------------ |
 |        1 | Navigate to [https://automationexercise.com](https://automationexercise.com) | Home page is loaded                                    |
 |        2 | Enter valid credentials                                                      | User is logged in                                      |
