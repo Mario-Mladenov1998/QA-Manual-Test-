@@ -24,3 +24,6 @@
 |        4 | Click "Proceed to Checkout"                                                  | Checkout page is displayed                             |
 |        5 | Enter **invalid credit card data** in the fields                             | Errors appear in the fields: "Please enter valid data" |
 |        6 | Click "Pay and Confirm Order"                                                | Nothing happens; order is not processed                |
+
+
+1
