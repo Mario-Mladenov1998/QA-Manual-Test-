@@ -31,3 +31,6 @@ The order is successful.
 Error message is displayed:  
 > `"Invalid credit card, please enter valid credit card"`
 
+Attachments: 
+![Екранна снимка 2025-06-17 202001](https://github.com/user-attachments/assets/4354e1bd-62e7-4731-893a-3629e4845d8a)
+![Екранна снимка 2025-06-17 201951](https://github.com/user-attachments/assets/e20ec1a7-5a43-4de3-8f30-247f4d0c9d67)
