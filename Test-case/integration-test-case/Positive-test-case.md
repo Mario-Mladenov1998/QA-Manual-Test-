@@ -29,7 +29,8 @@
 | 4️⃣  | Enter email address                     | `mariomladenov19023@abv.bg` appears in the field |
 | 5️⃣  | Click "Signup" button                   | ✅ The user registered successfully             |
 
-2. ✅ Test Case 
+2. ✅ Test Case
+   
 | **Title**             | Login with valid credentials                       |
 |-----------------------|----------------------------------------------------|
 | **Description**       | The user is successfully logged in with valid credentials |
