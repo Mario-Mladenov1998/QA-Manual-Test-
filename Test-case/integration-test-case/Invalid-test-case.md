@@ -76,3 +76,33 @@
 | 3️⃣         | Enter invalid password: `abc`                          | Password is hidden (*****)                                           |
 | 4️⃣         | Click the "Login" button                               | ❗ Error message is shown: _"Your email or password is incorrect!"_  |
 
+
+
+| 🧾 **Title**             | ❌ Order with invalid credit card                             |
+|--------------------------|--------------------------------------------------------------|
+| 📝 **Description**       | Order is not accepted with invalid credit card               |
+| 📁 **Suite**             | Integration Test Case                                        |
+| 🚨 **Severity**          | Major                                                        |
+| ⏫ **Priority**          | High                                                         |
+| 🔄 **Type**              | Integration                                                  |
+| 🧩 **Layer**             | E2E                                                          |
+| 🧪 **Automation status** | Manual                                                       |
+| 🔍 **Status**            | Actual                                                       |
+| ⚠️ **Behavior**          | Negative                                                     |
+| 📌 **Pre-condition**     | The user is on the order page                                |
+| ✅ **Post-condition**    | The user sees error message: "Order is unsuccessful"         |
+
+---
+
+### 🧪 Test Steps
+
+| 🔢 **Step** | 🧭 **Action**                                      | 🎯 **Expected Result**                      |
+|------------|----------------------------------------------------|--------------------------------------------|
+| 1️⃣         | Navigate to [https://automationexercise.com](https://automationexercise.com) | Home page is loaded                        |
+| 2️⃣         | Log in with valid credentials                      | User is logged in                          |
+| 3️⃣         | Add product to the cart                            | Product is added to the cart               |
+| 4️⃣         | Click "Proceed to Checkout"                        | Checkout page is displayed                 |
+| 5️⃣         | Enter invalid credit card data in the fields       | Invalid data is entered                    |
+| 6️⃣         | Click "Pay and Confirm Order"                      | ❌ Error message is shown: "Order is unsuccessful" |
+
+
