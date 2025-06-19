@@ -56,3 +56,31 @@
 
 
 
+| 🧾 **Title**             | ✅ Order with valid credit card                                  |
+|--------------------------|------------------------------------------------------------------|
+| 📝 **Description**       | Successful order with valid credit card                          |
+| 📁 **Suite**             | Integration Test Case                                            |
+| 🚨 **Severity**          | Major                                                            |
+| ⏫ **Priority**          | High                                                             |
+| 🔄 **Type**              | Integration                                                      |
+| 🧩 **Layer**             | E2E                                                              |
+| 🧪 **Automation status** | Manual                                                           |
+| 🔍 **Status**            | Actual                                                           |
+| ✔️ **Behavior**          | Positive                                                         |
+| 📌 **Pre-condition**     | The user is on the order page                                    |
+| ✅ **Post-condition**    | The order is placed successfully                                 |
+
+---
+
+### 🧪 Test Steps
+
+| 🔢 **Step** | 🧭 **Action**                                           | 🎯 **Expected Result**                            |
+|------------|---------------------------------------------------------|--------------------------------------------------|
+| 1️⃣         | Navigate to [https://automationexercise.com](https://automationexercise.com) | Home page is loaded                              |
+| 2️⃣         | Enter valid credentials                                | User is logged in                                |
+| 3️⃣         | Add product to the cart                                | Product is added to the cart                     |
+| 4️⃣         | Click "Proceed to Checkout"                            | Checkout page is displayed                       |
+| 5️⃣         | Enter valid credit card data                           | Valid data is entered and accepted               |
+| 6️⃣         | Click "Pay and Confirm order"                          | ✅ The order has been placed successfully         |
+
+
