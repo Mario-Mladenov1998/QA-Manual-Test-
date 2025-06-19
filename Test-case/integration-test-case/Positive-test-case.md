@@ -109,3 +109,45 @@
 | 3️⃣         | Add product to the cart                            | Product is added to the cart                |
 | 4️⃣         | Click "Cart" from the top menu                     | User sees product listed in the cart        |
 
+
+
+
+
+## ✅ Integration Test – Login, Add Product & Checkout with Valid Credit Card
+
+| **Field**             | **Value**                                                |
+|----------------------|-----------------------------------------------------------|
+| **Title**             | Login with valid credentials, Add product to the cart, Checkout with valid credit card data. |
+| **Status**            | Actual                                                    |
+| **Description**       | The user is logged in, adds product to the cart successfully and completes payment with valid credit card. |
+| **Suite**             | Integration-Test-Case                                     |
+| **Severity**          | Critical                                                  |
+| **Priority**          | High                                                      |
+| **Type**              | Integration                                               |
+| **Layer**             | E2E                                                       |
+| **Automation status** | Manual                                                    |
+| **Behavior**          | Positive 😊                                               |
+| **Is flaky**          | No                                                        |
+| **Pre-condition**     | The user is on the home page.                             |
+| **Post-condition**    | All steps are accepted successfully.                      |
+
+---
+
+### 🧪 Test Steps
+
+| **Step** | **Action**                                      | **Expected Result**                          |
+|--------:|--------------------------------------------------|----------------------------------------------|
+| 1       | Navigate to [https://automationexercise.com](https://automationexercise.com) | Home page is loaded                          |
+| 2       | Enter valid email address: `mariomladenov1212@gmail.bg` | Text appears in the field                    |
+| 3       | Enter valid password: `Mariomladenov123`         | Password is hidden (`******`)                |
+| 4       | Click "Login"                                    | Redirected to the dashboard                  |
+| 5       | Add product to the cart                          | Product is added to the cart                 |
+| 6       | Click "Cart" in the top menu                     | The user sees the product in the cart        |
+| 7       | Click "Proceed to Checkout"                      | Checkout page is displayed                   |
+| 8       | Enter valid credit card data in the fields       | The data appears in the fields               |
+| 9       | Click "Checkout and Confirm Order"               | Message is shown: _"Order has been placed successfully!"_ |
+
+---
+
+
+
