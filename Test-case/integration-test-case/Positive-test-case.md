@@ -1,4 +1,4 @@
-# ✅ Test Case: Registration with valid credentials
+1. ✅ Test Case: Registration with valid credentials
 
 | Field              | Value                                           |
 |--------------------|--------------------------------------------------|
@@ -29,9 +29,29 @@
 | 4️⃣  | Enter email address                     | `mariomladenov19023@abv.bg` appears in the field |
 | 5️⃣  | Click "Signup" button                   | ✅ The user registered successfully             |
 
----
+2. ✅ Test Case 
+| **Title**             | Login with valid credentials                       |
+|-----------------------|----------------------------------------------------|
+| **Description**       | The user is successfully logged in with valid credentials |
+| **Type**              | Integration                                        |
+| **Layer**             | E2E                                                |
+| **Severity**          | Major                                              |
+| **Priority**          | Medium                                             |
+| **Automation status** | Manual                                             |
+| **Behavior**          | Positive                                           |
+| **Status**            | Actual                                             |
+| **Pre-condition**     | The user is on the login page                      |
+| **Post-condition**    | The user is logged in and redirected to homepage   |
 
-## 📎 Attachments
+### Test Steps
 
-* (Attach screenshots if needed)
+| **Step** | **Action**                             | **Expected Result**                                 |
+|--------:|------------------------------------------|-----------------------------------------------------|
+| 1       | Navigate to https://automationexercise.com/login | Login page is displayed                             |
+| 2       | Enter valid email in the field           | Email is entered correctly                          |
+| 3       | Enter valid password in the field        | Password is hidden (******)                         |
+| 4       | Click the "Login" button                 | User is logged in and sees "Logged in as [User]"    |
+
+
+
 
