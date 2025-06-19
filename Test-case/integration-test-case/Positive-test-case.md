@@ -84,3 +84,28 @@
 | 6️⃣         | Click "Pay and Confirm order"                          | ✅ The order has been placed successfully         |
 
 
+| 🧾 **Title**             | 🛒 Add product to the cart                            |
+|--------------------------|--------------------------------------------------------|
+| 📝 **Description**       | The user successfully added product to the cart       |
+| 📁 **Suite**             | Integration Test Case                                 |
+| 🚨 **Severity**          | Normal                                                 |
+| ⏫ **Priority**          | Medium                                                 |
+| 🔄 **Type**              | Integration                                            |
+| 🧩 **Layer**             | E2E                                                    |
+| 🧪 **Automation status** | Manual                                                 |
+| 🔍 **Status**            | Actual                                                 |
+| ✅ **Behavior**          | Positive                                               |
+| 📌 **Pre-condition**     | The user is on the product page                        |
+| 🏁 **Post-condition**    | The product is successfully added to the cart          |
+
+---
+
+### 🧪 Test Steps
+
+| 🔢 **Step** | 🧭 **Action**                                       | 🎯 **Expected Result**                       |
+|------------|-----------------------------------------------------|---------------------------------------------|
+| 1️⃣         | Navigate to [https://automationexercise.com](https://automationexercise.com) | Home page is loaded                         |
+| 2️⃣         | Log in with valid credentials                      | User is logged in                           |
+| 3️⃣         | Add product to the cart                            | Product is added to the cart                |
+| 4️⃣         | Click "Cart" from the top menu                     | User sees product listed in the cart        |
+
