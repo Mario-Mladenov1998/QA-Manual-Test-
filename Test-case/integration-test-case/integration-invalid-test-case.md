@@ -48,3 +48,31 @@
 | 3        | Enter a name in the field (e.g., "Mario")        | Text appears in the name field                           |
 | 4        | Enter an already registered email address        | Text appears in the email field                          |
 | 5        | Click the "Signup" button                        | Error message is shown: "Email Address already exists!"  |
+
+
+
+| 🔹 **Title**             | ❌ Login with invalid credentials                                |
+|-------------------------|------------------------------------------------------------------|
+| 📝 **Description**       | Unsuccessful login with invalid email and password               |
+| 📁 **Suite**             | Integration Test Case                                            |
+| 🚨 **Severity**          | Major                                                            |
+| ⏫ **Priority**          | High                                                             |
+| 🔄 **Type**              | Regression                                                       |
+| 🧩 **Layer**             | E2E                                                              |
+| 🧪 **Automation status** | Manual                                                           |
+| 🔍 **Status**            | Actual                                                           |
+| ⚠️ **Behavior**          | Negative                                                         |
+| 📌 **Pre-condition**     | The user is on the login page                                    |
+| ✅ **Post-condition**    | The user sees error message: _"Your email or password is incorrect!"_ |
+
+---
+
+### 🧪 Test Steps
+
+| 🔢 **Step** | 🧭 **Action**                                           | 🎯 **Expected Result**                                               |
+|------------|---------------------------------------------------------|----------------------------------------------------------------------|
+| 1️⃣         | Navigate to [https://automationexercise.com/login](https://automationexercise.com/login) | Login page is displayed                                              |
+| 2️⃣         | Enter invalid email: `mario123@gmail.bg`               | Email appears in the field                                           |
+| 3️⃣         | Enter invalid password: `abc`                          | Password is hidden (*****)                                           |
+| 4️⃣         | Click the "Login" button                               | ❗ Error message is shown: _"Your email or password is incorrect!"_  |
+
