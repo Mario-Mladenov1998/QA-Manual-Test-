@@ -93,3 +93,36 @@
 | 5        | Click **"Login"** button                     | –                      | Error message is shown: *Your email or password is incorrect!* |
 
 
+
+
+
+
+4. # Test Case: Login with empty password
+
+| **Field**            | **Value**                                                                 |
+|-----------------------|---------------------------------------------------------------------------|
+| **Title**             | Login with empty password                                                 |
+| **Description**       | The user tries to login with a valid email and an empty password.         |
+| **Suite**             | Edge test cases                                                           |
+| **Severity**          | Critical                                                                  |
+| **Priority**          | High                                                                      |
+| **Type**              | Functional                                                               |
+| **Layer**             | E2E                                                                       |
+| **Behavior**          | Negative                                                                  |
+| **Automation status** | Manual (To be automated)                                                  |
+| **Pre-conditions**    | The user is on the login page.                                            |
+| **Post-conditions**   | User is not logged in. System shows error message: *"Please, enter this field (password)"* |
+
+---
+
+## Test Steps
+
+| **Step** | **Action**                                   | **Input Data**          | **Expected Result**                                      |
+|----------|-----------------------------------------------|-------------------------|---------------------------------------------------------|
+| 1        | Navigate to [https://automationexercise.com/login](https://automationexercise.com/login) | –                       | Home page is loaded.                                    |
+| 2        | Click **"Signup/Login"** in the top menu     | –                       | Login page is displayed.                                |
+| 3        | Enter valid email address                    | `valid_email@example.com` | Email is entered in the field.                          |
+| 4        | Leave password field empty                   | –                       | Password field remains empty.                           |
+| 5        | Click **"Login"** button                     | –                       | Error message is shown: *"Please, enter this field (password)"*. User is not logged in. |
+
+
