@@ -1,4 +1,4 @@
-# Test Case: Registration with special characters in the name
+1. # Test Case: Registration with special characters in the name
 
 | Field            | Value                                                                 |
 |------------------|-----------------------------------------------------------------------|
@@ -25,4 +25,38 @@
 | 4 | Enter valid email address | Email address is correctly entered. |
 | 5 | Enter valid password | Password is accepted. |
 | 6 | Click "Signup" button | Error message is shown: `Name is invalid, please remove special characters.` |
+
+
+
+
+
+
+2. # Test Case: Login with password of two digits
+
+| **Field**          | **Value**                                                                 |
+|---------------------|---------------------------------------------------------------------------|
+| **Title**           | Login with password of two digits                                         |
+| **Description**     | The user tries to login with a valid email and a 2-digit password.        |
+| **Suite**           | Edge test cases                                                           |
+| **Severity**        | Critical                                                                  |
+| **Priority**        | High                                                                      |
+| **Type**            | Functional                                                               |
+| **Layer**           | E2E                                                                       |
+| **Behavior**        | Negative                                                                  |
+| **Automation status** | Manual (To be automated)                                                 |
+| **Pre-conditions**  | The user is on the login page.                                            |
+| **Post-conditions** | Error message is shown: *Your email or password is incorrect!*            |
+
+---
+
+## Test Steps
+
+| **Step** | **Action**                                      | **Expected Result**                                |
+|----------|-------------------------------------------------|---------------------------------------------------|
+| 1        | Navigate to [https://automationexercise.com/](https://automationexercise.com/) | Home page is loaded.                              |
+| 2        | Click **"Signup/Login"** in the top menu        | Login page is displayed.                          |
+| 3        | Enter a valid email address                     | Email is entered correctly.                       |
+| 4        | Enter invalid 2-digit password                  | Password is entered (hidden).                     |
+| 5        | Click **"Login"** button                        | Error message: *Your email or password is incorrect!* |
+
 
