@@ -60,3 +60,36 @@
 | 5        | Click **"Login"** button                        | Error message: *Your email or password is incorrect!* |
 
 
+
+
+
+
+3.# Test Case: Login with invalid email (missing "@")
+
+| **Field**          | **Value**                                                                 |
+|---------------------|---------------------------------------------------------------------------|
+| **Title**           | Login with invalid email (missing "@")                                    |
+| **Description**     | The user tries to login with an invalid email address (missing "@").      |
+| **Suite**           | Edge test cases                                                           |
+| **Severity**        | Critical                                                                  |
+| **Priority**        | High                                                                      |
+| **Type**            | Functional                                                               |
+| **Layer**           | E2E                                                                       |
+| **Behavior**        | Negative                                                                  |
+| **Automation status** | Manual (To be automated)                                                 |
+| **Pre-conditions**  | The user is on the login page.                                            |
+| **Post-conditions** | User is not logged in. Error message is shown: *Your email or password is incorrect!* |
+
+---
+
+## Test Steps
+
+| **Step** | **Action**                                   | **Input Data**         | **Expected Result**                                |
+|----------|-----------------------------------------------|------------------------|---------------------------------------------------|
+| 1        | Navigate to [https://automationexercise.com/login](https://automationexercise.com/login) | –                      | Home page is loaded.                              |
+| 2        | Click **"Signup/Login"** in the top menu     | –                      | Login page is displayed.                          |
+| 3        | Enter invalid email address                  | `donaldtrump2025.gmail` | Email is entered in the field.                    |
+| 4        | Enter valid password                         | valid_password123      | Password is entered correctly (hidden).           |
+| 5        | Click **"Login"** button                     | –                      | Error message is shown: *Your email or password is incorrect!* |
+
+
