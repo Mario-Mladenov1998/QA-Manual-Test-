@@ -56,19 +56,21 @@
 
 3. # Test Case: Order with empty product cart
 
-**Title:** Order with empty the product cart  
-**Status:** Actual 0  
-**Description:** The user places an order with an empty product cart  
-**Suite:** Edge test cases  
-**Severity:** Critical  
-**Priority:** High  
-**Type:** Regression  
-**Layer:** E2E  
-**Is flaky:** No  
-**Behavior:** Negative  
-**Automation status:** Manual  
-**Pre-conditions:** The user is on the home page  
-**Post-conditions:** User sees: Empty cart! Click here to buy products  
+| Field | Value |
+|-------|-------|
+| Title | Order with empty the product cart |
+| Status | Actual 0 |
+| Description | The user places an order with an empty product cart |
+| Suite | Edge test cases |
+| Severity | Critical |
+| Priority | High |
+| Type | Regression |
+| Layer | E2E |
+| Is flaky | No |
+| Behavior | Negative |
+| Automation status | Manual |
+| Pre-conditions | The user is on the home page |
+| Post-conditions | User sees: Empty cart! Click here to buy products |
 
 ## Test Case Steps
 
