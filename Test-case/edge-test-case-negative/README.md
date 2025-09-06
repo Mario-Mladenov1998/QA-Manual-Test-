@@ -126,3 +126,37 @@
 | 5        | Click **"Login"** button                     | –                       | Error message is shown: *"Please, enter this field (password)"*. User is not logged in. |
 
 
+
+
+
+5. # Test Case - Order without login in the system
+
+| Field              | Value                                                                 |
+|--------------------|-----------------------------------------------------------------------|
+| **Title**          | Order without login in the system                                     |
+| **Status**         | Actual                                                               |
+| **Description**    | The user is trying to proceed to checkout without being logged in.    |
+| **Suite**          | Edge test cases                                                      |
+| **Severity**       | Critical                                                             |
+| **Priority**       | High                                                                 |
+| **Type**           | Regression                                                           |
+| **Layer**          | E2E                                                                  |
+| **Is flaky**       | No                                                                   |
+| **Milestone**      | Not set                                                              |
+| **Behavior**       | Negative                                                             |
+| **Automation**     | Manual (To be automated)                                             |
+| **Pre-conditions** | User is on the home page.                                            |
+| **Post-conditions**| Order is not placed; user is redirected to Login/Register page.       |
+
+---
+
+## Test Steps
+
+| Step | Action                     | Test Data | Expected Result |
+|------|-----------------------------|-----------|-----------------|
+| 1    | Navigate to https://automationexercise.com | - | Home page is loaded. |
+| 2    | Click "Cart" in the top menu | - | Cart page is displayed. |
+| 3    | Click "Add to cart"         | Select any product | Product is added to cart successfully. |
+| 4    | Click "Proceed to checkout" | - | Error message is shown: "Register / Login account to proceed to checkout." |
+
+
