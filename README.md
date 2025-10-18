@@ -1,7 +1,7 @@
 # 🧪 QA Manual Testing Project – automationexercise.com
 ## 📌 Description
 This project demonstrates manual testing of the web application [automationexercise.com).  
-It includes real test cases created in Qase.io, covering positive, negative, and regression scenarios.
+It includes real test cases created in Qase.io, covering positive, negative,integration,regression,smoke, exploratory.
 
 ## ✅ Test Types:
 - Positive tests (valid inputs)
